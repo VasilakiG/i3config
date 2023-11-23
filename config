@@ -318,6 +318,7 @@ for_window [class="Spotify"] move to workspace $ws6
 for_window [class="Kuro"] move to workspace $ws8
 for_window [class="jetbrains-idea"] move to workspace $ws4
 for_window [class="jetbrains-pycharm"] move to workspace $ws4
+for_window [class="jetbrains-clion-nova"] move to workspace $ws4
 for_window [class="Inkscape"] move to workspace $ws8
 for_window [class="Blender"] move to workspace $ws8
 for_window [class="jetbrains-rider"] move to workspace $ws4
@@ -393,7 +394,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec feh --bg-scale /home/vasilaki/Downloads/Backgrounds/EOS_planets_Artemis_cropped.png
+exec feh --bg-scale /usr/share/endeavouros/backgrounds/eos_wallpapers_classic/Endy_planet.png
 
 # set powersavings for display:
 #exec --no-startup-id xset s 480 dpms 600 600 600
