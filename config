@@ -332,8 +332,12 @@ for_window [class="Blender"] move to workspace $ws8
 for_window [class="jetbrains-rider"] move to workspace $ws4
 for_window [class="libreoffice-writer"] move to workspace $ws8
 for_window [class="libreoffice-calc"] move to workspace $ws8
+<<<<<<< Updated upstream
 for_window [class="obsidian"] move to workspace $ws8
 for_window [class="GitHub Desktop"] move to workspace $ws8
+=======
+for_window [class="UltiMaker-Cura"] move to workspace $ws8
+>>>>>>> Stashed changes
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=Xfce4-terminal] focus
