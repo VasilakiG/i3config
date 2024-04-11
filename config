@@ -53,8 +53,8 @@ new_window pixel 1
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 6
-gaps outer 3
+#gaps inner 6
+#gaps outer 3
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
@@ -274,7 +274,8 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
-bindsym $mod+g exec /usr/bin/google-chrome-stable
+bindsym $mod_g exec ~/.var/app/com.google.Chrome
+#bindsym $mod+g exec /usr/bin/google-chrome-stable
 bindsym $mod+n exec /usr/bin/thunar
 
 bindsym Print exec scrot /home/vasilaki/Pictures/Screenshots/screenshot.png  && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
@@ -302,15 +303,20 @@ set $ws10 "10"
 # use workspaces on different displays:
 # where you have to replace VGA-0/HDMI-0 with the names for your displays
 # you can get from xrandr command
-#workspace $ws1 output VGA-0
-#workspace $ws2 output VGA-0
-#workspace $ws3 output HDMI-0
-#workspace $ws4 output HDMI-0
-#workspace $ws5 output HDMI-0
+workspace $ws5 output eDP
+workspace $ws6 output eDP
+workspace $ws1 output HDMI-A-0
+workspace $ws2 output HDMI-A-0
+workspace $ws3 output HDMI-A-0
+workspace $ws4 output HDMI-A-0
+workspace $ws7 output HDMI-A-0
+workspace $ws8 output HDMI-A-0
 
 # bind program to workspace and focus to them on startup:
 assign [class="Xfce4-terminal"] $ws1
 assign [class="Google-chrome"] $ws2
+assign [class="google-chrome"] $ws2
+assign [class="org.gnome.Nautilus"] $ws3
 assign [class="Thunar"] $ws3
 assign [class="Code"] $ws4
 for_window [class="Discord Updater"] move to workspace $ws5
@@ -320,11 +326,14 @@ for_window [class="Kuro"] move to workspace $ws8
 for_window [class="jetbrains-idea"] move to workspace $ws4
 for_window [class="jetbrains-pycharm"] move to workspace $ws4
 for_window [class="jetbrains-clion-nova"] move to workspace $ws4
+for_window [class="jetbrains-clion"] move to workspace $ws4
 for_window [class="Inkscape"] move to workspace $ws8
 for_window [class="Blender"] move to workspace $ws8
 for_window [class="jetbrains-rider"] move to workspace $ws4
 for_window [class="libreoffice-writer"] move to workspace $ws8
 for_window [class="libreoffice-calc"] move to workspace $ws8
+for_window [class="obsidian"] move to workspace $ws8
+for_window [class="GitHub Desktop"] move to workspace $ws8
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=Xfce4-terminal] focus
@@ -589,9 +598,13 @@ bindsym $mod+t exec rofi -show window \
 
 ## rofi bindings to manage clipboard (install rofi-greenclip from the AUR)
 
-#exec --no-startup-id greenclip daemon>/dev/null
+
 #bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard \
 #		-config ~/.config/rofi/rofidmenu.ras
 
-exec --no-startup-id setxkbmap -option "grp:switch,grp:alt_shift_toggle,grp_led:scroll" -layout "us,mk"  &
-exec --no-startup-id synclient NaturalScrolling=0 VertScrollDelta=-113
+exec "setxkbmap -layout us,mk"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
+exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,mk -variant ,qwerty"
+exec synclient NaturalScrolling=0 VertScrollDelta=-113
+
+bindsym $mod+m exec i3-msg move workspace to output HDMI-A-0

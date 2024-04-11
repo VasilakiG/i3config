@@ -1,0 +1,226 @@
+ERROR parse_bar:162: malformated line: T_WARN=70
+ERROR main:70: Try 'i3blocks -h' for more information.
+[libi3] ../i3bar/src/main.c i3bar version 4.20.1 (2021-11-03)
+[../i3bar/src/xcb.c:1252] Connected to xcb
+[../i3bar/src/xcb.c:1561] Got atoms
+[../i3bar/src/ipc.c:241] Got data!
+[../i3bar/src/ipc.c:102] Received bar config "{"id":"bar-0","tray_outputs":["primary"],"tray_padding":0,"mode":"dock","hidden_state":"hide","modifier":64,"position":"top","status_command":"i3blocks -c ~/.config/i3/i3blocks.conf","font":"pango: System San Francisco Display 11","workspace_buttons":true,"workspace_min_width":0,"strip_workspace_numbers":true,"strip_workspace_name":false,"binding_mode_indicator":true,"verbose":false,"colors":{"background":"#383c4a","statusline":"#ffffff","separator":"#e345ff","focused_workspace_border":"#8b8b8b","focused_workspace_bg":"#b0b5bd","focused_workspace_text":"#383c4a","active_workspace_border":"#5294e2","active_workspace_bg":"#8b8b8b","active_workspace_text":"#383c4a","inactive_workspace_border":"#383c4a","inactive_workspace_bg":"#383c4a","inactive_workspace_text":"#b0b5bd","urgent_workspace_border":"#e53935","urgent_workspace_bg":"#e53935","urgent_workspace_text":"#ffffff"}}"
+[../i3bar/src/config.c:99] Adding tray_output = primary to the list.
+[../i3bar/src/config.c:334] tray_padding = 0
+[../i3bar/src/config.c:107] mode = dock, len = 4
+[../i3bar/src/config.c:115] hidden_state = hide, len = 4
+[../i3bar/src/config.c:340] modifier = 64
+[../i3bar/src/config.c:180] position = top
+[../i3bar/src/config.c:186] command = i3blocks -c ~/.config/i3/i3blocks.conf
+[../i3bar/src/config.c:192] font = pango: System San Francisco Display 11
+[../i3bar/src/config.c:287] workspace_buttons = 1
+[../i3bar/src/config.c:346] workspace_min_width = 0
+[../i3bar/src/config.c:293] strip_workspace_numbers = 1
+[../i3bar/src/config.c:299] strip_workspace_name = 0
+[../i3bar/src/config.c:281] binding_mode_indicator = 1
+[../i3bar/src/config.c:234] background = bar_bg = #383c4a
+[../i3bar/src/config.c:233] statusline = bar_fg = #ffffff
+[../i3bar/src/config.c:235] separator = sep_fg = #e345ff
+[../i3bar/src/config.c:239] focused_workspace_border = focus_ws_border = #8b8b8b
+[../i3bar/src/config.c:240] focused_workspace_bg = focus_ws_bg = #b0b5bd
+[../i3bar/src/config.c:241] focused_workspace_text = focus_ws_fg = #383c4a
+[../i3bar/src/config.c:242] active_workspace_border = active_ws_border = #5294e2
+[../i3bar/src/config.c:243] active_workspace_bg = active_ws_bg = #8b8b8b
+[../i3bar/src/config.c:244] active_workspace_text = active_ws_fg = #383c4a
+[../i3bar/src/config.c:245] inactive_workspace_border = inactive_ws_border = #383c4a
+[../i3bar/src/config.c:246] inactive_workspace_bg = inactive_ws_bg = #383c4a
+[../i3bar/src/config.c:247] inactive_workspace_text = inactive_ws_fg = #b0b5bd
+[../i3bar/src/config.c:248] urgent_workspace_border = urgent_ws_border = #e53935
+[../i3bar/src/config.c:249] urgent_workspace_bg = urgent_ws_bg = #e53935
+[../i3bar/src/config.c:250] urgent_workspace_text = urgent_ws_fg = #ffffff
+[libi3] ../libi3/font.c Using Pango font System San Francisco Display, size 11
+[../i3bar/src/xcb.c:1357] Calculated font height: 18
+[../i3bar/src/xcb.c:1494] Setting bar_fg = #ffffff as _NET_SYSTEM_TRAY_COLORS
+[../i3bar/src/child.c:624] start_child: pid=30866 stopped=0 stop_signal=0 cont_signal=0 click_events=0 click_events_init=0
+[../i3bar/src/xcb.c:1150] Received X11 error, sequence 0x26, error_code = 3
+[../i3bar/src/ipc.c:241] Got data!
+[../i3bar/src/ipc.c:63] Clearing old output configuration...
+[../i3bar/src/ipc.c:66] Parsing outputs JSON...
+[../i3bar/src/ipc.c:68] Reconfiguring windows...
+[../i3bar/src/xcb.c:1739] Destroying window for output xroot-0
+[../i3bar/src/xcb.c:1744] Creating window for output eDP
+[../i3bar/src/xcb.c:1401] Initializing system tray functionality
+[../i3bar/src/xcb.c:1494] Setting bar_fg = #ffffff as _NET_SYSTEM_TRAY_COLORS
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/ipc.c:241] Got data!
+[../i3bar/src/ipc.c:54] Got subscribe reply: {"success":true}
+[../i3bar/src/ipc.c:241] Got data!
+[../i3bar/src/ipc.c:43] Got workspace data!
+[../i3bar/src/workspa[../i3bar/src/child.c:506] ERROR: Child (pid: 30866) unexpectedly exited with status 1
+ces.c:143] Got workspace canonical: 1:1.Terminals, name: '1.Terminals', name_width: 83, glyphs: 11
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 2:2.Browsers, name: '2.Browsers', name_width: 82, glyphs: 10
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 4:4.IDEs, name: '4.IDEs', name_width: 46, glyphs: 6
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 6:6.Music, name: '6.Music', name_width: 56, glyphs: 7
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 8:8.Productivity, name: '8.Productivity', name_width: 102, glyphs: 14
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/ipc.c:241] Got data!
+[../i3bar/src/ipc.c:43] Got workspace data!
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 1:1.Terminals, name: '1.Terminals', name_width: 83, glyphs: 11
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 2:2.Browsers, name: '2.Browsers', name_width: 82, glyphs: 10
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 4:4.IDEs, name: '4.IDEs', name_width: 46, glyphs: 6
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 6:6.Music, name: '6.Music', name_width: 56, glyphs: 7
+[../i3bar/src/workspaces.c:143] Got workspace canonical: 8:8.Productivity, name: '8.Productivity', name_width: 102, glyphs: 14
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/child.c:759] cont_child: pid=0 stopped=0 stop_signal=0 cont_signal=0 click_events=0 click_events_init=0
+[../i3bar/src/xcb.c:824] _NET_SYSTEM_TRAY_OPCODE received
+[../i3bar/src/xcb.c:869] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:871] xembed version = 1
+[../i3bar/src/xcb.c:872] xembed flags = 0
+[../i3bar/src/xcb.c:882] X window 026026d7 requested docking
+[../i3bar/src/xcb.c:800] WM_CLASS changed to Discord (instance), Discord (class)
+[../i3bar/src/xcb.c:946] Not mapping dock client yet
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:824] _NET_SYSTEM_TRAY_OPCODE received
+[../i3bar/src/xcb.c:869] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:871] xembed version = 1
+[../i3bar/src/xcb.c:872] xembed flags = 0
+[../i3bar/src/xcb.c:882] X window 0220003c requested docking
+[../i3bar/src/xcb.c:800] WM_CLASS changed to jetbrains-toolbox (instance), jetbrains-toolbox (class)
+[../i3bar/src/xcb.c:946] Not mapping dock client yet
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:824] _NET_SYSTEM_TRAY_OPCODE received
+[../i3bar/src/xcb.c:869] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:871] xembed version = 1
+[../i3bar/src/xcb.c:872] xembed flags = 1
+[../i3bar/src/xcb.c:882] X window 01200310 requested docking
+[../i3bar/src/xcb.c:800] WM_CLASS changed to nm-applet (instance), nm-applet (class)
+[../i3bar/src/xcb.c:943] Mapping dock client
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:824] _NET_SYSTEM_TRAY_OPCODE received
+[../i3bar/src/xcb.c:869] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:871] xembed version = 1
+[../i3bar/src/xcb.c:872] xembed flags = 1
+[../i3bar/src/xcb.c:882] X window 00400bda requested docking
+[../i3bar/src/xcb.c:800] WM_CLASS changed to ibus-ui-gtk (instance), ibus-ui-gtk (class)
+[../i3bar/src/xcb.c:943] Mapping dock client
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1038] xembed_info updated
+[../i3bar/src/xcb.c:1063] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:1065] xembed version = 1
+[../i3bar/src/xcb.c:1066] xembed flags = 1
+[../i3bar/src/xcb.c:1068] map state now 1
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1038] xembed_info updated
+[../i3bar/src/xcb.c:1063] xembed format = 32, len = 2
+[../i3bar/src/xcb.c:1065] xembed version = 1
+[../i3bar/src/xcb.c:1066] xembed flags = 1
+[../i3bar/src/xcb.c:1068] map state now 1
+[../i3bar/src/xcb.c:992] MapNotify for window = 01200310, event = 01200310
+[../i3bar/src/xcb.c:1000] Tray client mapped (window ID 01200310). Adjusting tray.
+[../i3bar/src/xcb.c:731] Configuring tray window 01200310 to x=1896
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:992] MapNotify for window = 00400bda, event = 00400bda
+[../i3bar/src/xcb.c:1000] Tray client mapped (window ID 00400bda). Adjusting tray.
+[../i3bar/src/xcb.c:731] Configuring tray window 01200310 to x=1896
+[../i3bar/src/xcb.c:731] Configuring tray window 00400bda to x=1872
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:992] MapNotify for window = 026026d7, event = 026026d7
+[../i3bar/src/xcb.c:1000] Tray client mapped (window ID 026026d7). Adjusting tray.
+[../i3bar/src/xcb.c:731] Configuring tray window 01200310 to x=1896
+[../i3bar/src/xcb.c:731] Configuring tray window 00400bda to x=1872
+[../i3bar/src/xcb.c:731] Configuring tray window 026026d7 to x=1848
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:992] MapNotify for window = 0220003c, event = 0220003c
+[../i3bar/src/xcb.c:1000] Tray client mapped (window ID 0220003c). Adjusting tray.
+[../i3bar/src/xcb.c:731] Configuring tray window 01200310 to x=1896
+[../i3bar/src/xcb.c:731] Configuring tray window 0220003c to x=1872
+[../i3bar/src/xcb.c:731] Configuring tray window 00400bda to x=1848
+[../i3bar/src/xcb.c:731] Configuring tray window 026026d7 to x=1824
+[../i3bar/src/xcb.c:1994] Drawing bars...
+[../i3bar/src/xcb.c:2004] Output xroot-0 inactive, skipping...
+[../i3bar/src/xcb.c:2020] Drawing button for WS 1.Terminals at x = 0, len = 83
+[../i3bar/src/xcb.c:2020] Drawing button for WS 2.Browsers at x = 94, len = 82
+[../i3bar/src/xcb.c:2020] Drawing button for WS 4.IDEs at x = 187, len = 46
+[../i3bar/src/xcb.c:2020] Drawing button for WS 6.Music at x = 244, len = 56
+[../i3bar/src/xcb.c:2020] Drawing button for WS 8.Productivity at x = 311, len = 102
+[../i3bar/src/xcb.c:2066] Printing statusline!
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/xcb.c:1034] PropertyNotify
+[../i3bar/src/main.c:86] Got a SIGINT, stopping
+[../i3bar/src/child.c:729] kill_child: pid=0 stopped=0 stop_signal=0 cont_signal=0 click_events=0 click_events_init=0
+[../i3bar/src/child.c:714] kill_child_at_exit: pid=0 stopped=0 stop_signal=0 cont_signal=0 click_events=0 click_events_init=0
